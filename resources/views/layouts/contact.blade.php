@@ -4,9 +4,9 @@
 
             <div class="col-sm-12 animated zoomIn wow" data-wow-delay=".5s">
                 <div class="header-title">
-                    <h1>contact</h1>
+                    <h1>Contact</h1>
                     <hr>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore.</p>
+                    <p>Contact me using the form below:</p>
                 </div>
             </div>
         </div>
@@ -19,29 +19,29 @@
                 <div class="contact-detial">
                     <div class="clearfix ci-items fadeIn animated wow" data-wow-delay=".1s"> 
                         <span class="ci-icons"><i class="zmdi zmdi-home"></i></span> 
-                            <address>Inox Box 1546, Sollins Street West, Victoria 7001, Australia</address> 
+                            <address>419 Mallard Point Drive, North Aurora, IL 60542</address> 
                     </div>
 
                     <div class="clearfix ci-items fadeIn animated wow" data-wow-delay=".2s"> 
                         <span class="ci-icons"><i class="zmdi zmdi-email"></i></span> 
-                            <address>Verny@gmail.com </address> 
+                            <address>mnebelsick@comcast.net</address> 
                     </div>
 
                     <div class="clearfix ci-items fadeIn animated wow" data-wow-delay=".3s"> 
                         <span class="ci-icons"><i class="zmdi zmdi-phone"></i></span> 
-                            <address>+123 654 657 1110</address> 
+                            <address>+1 (630) 578-1133</address> 
                     </div>
 
                     <div class="clearfix ci-items fadeIn animated wow" data-wow-delay=".4s"> 
                         <span class="ci-icons"><i class="zmdi zmdi-globe"></i></span> 
-                            <address>www.vernytemplate.com</address> 
+                            <address>mike-nebelsick.dev</address> 
                     </div>
                 </div>
             </div>
 
             <div class="col-md-6 col-sm-6 col-lg-6">
                 <div class="section-form">
-                    <form class="contact-form" id="ajax-form" action="https://formsubmit.io/send/themesbykrish@gmail.com" method="post">
+                    <form class="contact-form" id="ajax-form" action="https://formsubmit.io/send/mnebelsick@comcast.net" method="post">
                         <div class="row">
                             <div class="col-sm-12 col-md-6 input-field fadeIn animated wow" data-wow-delay=".1s">
                                 <div class="input-field">
@@ -91,7 +91,7 @@
                 </div>
             </div>
 
-        </div><
+        </div>
 
     </div>    
 </section>
