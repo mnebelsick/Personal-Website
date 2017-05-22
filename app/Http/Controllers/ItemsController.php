@@ -8,6 +8,8 @@ use App\Detail;
 
 use App\Testimonial;
 
+use App\Credential;
+
 use Illuminate\Http\Request;
 
 class ItemsController extends Controller
@@ -26,8 +28,16 @@ class ItemsController extends Controller
 
 		//dd($testimonials);
 
+		$experiences = Credential::where('type', 'Exp')->orderby('timeframe', 'desc')->get();
 
-		return view('index', compact('items', 'details', 'testimonials'));
+		//dd($experiences);
+
+		$educations = Credential::where('type', 'Edu')->orderby('timeframe', 'desc')->get();
+
+		//dd($educations);
+
+
+		return view('index', compact('items', 'details', 'testimonials', 'experiences', 'educations'));
     }
 	
 }
