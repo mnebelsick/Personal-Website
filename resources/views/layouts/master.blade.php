@@ -36,7 +36,7 @@
     @include('layouts.fun-facts')
 
 
-    @include('layouts.resume')
+    @yield('resume')
 
 
     @include('layouts.portfolios')
@@ -45,7 +45,7 @@
     @yield('testimonials')
 
 
-    @include('layouts.blog')
+    <!-- @include('layouts.blog') -->
 
 
     @include('layouts.contact')

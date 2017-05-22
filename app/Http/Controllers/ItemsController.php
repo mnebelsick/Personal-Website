@@ -16,7 +16,7 @@ class ItemsController extends Controller
 {
     public function index()
     {
-		$items = Item::all();
+		$items = Item::all()->random(3);
 
 		//dd($items);
 
@@ -24,7 +24,7 @@ class ItemsController extends Controller
 
 		//dd($details);
 
-		$testimonials = Testimonial::all();
+		$testimonials = Testimonial::all()->random(3);
 
 		//dd($testimonials);
 

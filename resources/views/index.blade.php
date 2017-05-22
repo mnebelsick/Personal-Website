@@ -8,6 +8,10 @@
     @include('layouts.about')
 @endsection
 
+@section ('resume')
+    @include('layouts.resume')
+@endsection
+
 @section ('testimonials')
     @include('layouts.testimonials')
 @endsection

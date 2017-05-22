@@ -1,4 +1,3 @@
-<!-- Contact Start -->
 <section class="contact" id="contact">
     <div class="container">
         <div class="row">
@@ -92,9 +91,7 @@
                 </div>
             </div>
 
-        </div><!--End row -->
+        </div><
 
     </div>    
 </section>
-
-<!-- /End Contact Start -->

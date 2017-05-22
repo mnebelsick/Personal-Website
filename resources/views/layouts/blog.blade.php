@@ -76,7 +76,7 @@
                     <a href="#" class="waves-effect waves-light btn-large load fadeIn animated wow" data-wow-delay=".5s">See All</a>
                 </div>
 
-            </div><!-- End row -->
+            </div>
 
-        </div><!--End container-->
-    </section><!-- End section -->
+        </div>
+    </section>

@@ -16,6 +16,7 @@
                 <li><a href="#resume">Resume</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#testimonials">Testimonials</a></li>
+ <!--
                 <li class="dropdown">
                     <a href="#blog" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
                         <ul class="dropdown-menu wow fadeInDown">
@@ -24,7 +25,9 @@
                             <li><a href="singleblog.html" title="">singleblog</a></li>
                         </ul>
                 </li>
+-->
                 <li><a href="#contact">Contact</a></li>
+
             </ul>
 
         </div><!--/.nav-collapse -->
