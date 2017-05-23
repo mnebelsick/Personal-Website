@@ -2,7 +2,7 @@
 ======================================================= -->
 <section class="carousel-section" id="home">
     <div class="overlay"></div>
-    <div id="carousel-example-generic" class="carousel carousel-razon" data-ride="carousel" data-interval="5000">
+    <div id="carousel-example-generic" class="carousel carousel-razon" data-ride="carousel" data-interval="10000">
         <!-- Indicators -->
         <ol class="carousel-indicators">
         @foreach ($items as $item)
