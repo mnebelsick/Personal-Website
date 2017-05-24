@@ -16,7 +16,7 @@
     <script type="text/javascript" src="js/wow.min.js"></script>
 
     <!-- Google Map -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCw7SE_KXSnJZRaTbzYupo2k04wfpDvlS0AIzaSyCw7SE_KXSnJZRaTbzYupo2k04wfpDvlS0"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCw7SE_KXSnJZRaTbzYupo2k04wfpDvlS0"></script>
 
     <!--owl carousel -->
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
