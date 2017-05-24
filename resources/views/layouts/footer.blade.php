@@ -5,14 +5,12 @@
 
             <div class="footer-social-area animated zoomIn wow animated" data-wow-delay=".9s">
                 <ul class="social footer-social">
-                    <!--
-                    <li><a href="https://www.facebook.com/michael.nebelsick.3"><i class="zmdi zmdi-facebook"></i></a></li>
+                    <li><a href="#"><i class="zmdi zmdi-facebook"></i></a></li>
                     <li><a href="#"><i class="zmdi zmdi-twitter"></i></a></li>
                     <li><a href="#"><i class="zmdi zmdi-google-plus"></i></a></li>
                     <li><a href="#"><i class="zmdi zmdi-dribbble"></i></a></li>
                     <li><a href="#"><i class="zmdi zmdi-pinterest-box"></i></a></li>
                     <li><a href="#"><i class="zmdi zmdi-instagram"></i></a></li>
-                    -->
                 </ul>
             </div>
         </div>

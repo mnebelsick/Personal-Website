@@ -82,13 +82,6 @@
                         </div>
                     </div>
 
-                    <h4>Oracle<span>95%</span></h4>
-                    <div class="progress-solid meter animated-skills">
-                        <div class="progress-bar" role="progressbar" data-percent="95%" aria-valuemax="100" aria-valuemin="0">
-                            <span class="sr-only">95% Complete</span>
-                        </div>
-                    </div>
-
                 </div>  
             </div> <!-- end colommen -->
 
@@ -114,14 +107,6 @@
                             <span class="sr-only">85% Complete</span>
                         </div>
                     </div>
-
-                    <h4>MySQL<span>95%</span></h4>
-                    <div class="progress-solid meter animated-skills">
-                        <div class="progress-bar" role="progressbar" data-percent="95%" aria-valuemax="100" aria-valuemin="0">
-                            <span class="sr-only">95% Complete</span>
-                        </div>
-                    </div>
-
                 </div>
             </div>
 
