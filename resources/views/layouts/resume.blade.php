@@ -11,7 +11,7 @@
                 Deliver Innovative Solutions to Complex Problems | Drive Efficiency Through Simplification
                 </p>
                 <p>
-                Career highlights below, or download <a href=/nebelsick_michael_resume_web_development.pdf> resume</a> for more details.
+                Career highlights below, or download <a href="https://mike-nebelsick.com/nebelsick_michael_resume_web_development.pdf"> resume</a> for more details.
                 </p>
             </div>
         </div>
