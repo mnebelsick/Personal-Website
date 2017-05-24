@@ -10,6 +10,9 @@
                 PHP WEB DEVELOPMENT ENGINEER<br>
                 Deliver Innovative Solutions to Complex Problems | Drive Efficiency Through Simplification
                 </p>
+                <p>
+                Career highlights below, or download <a href=/nebelsick_michael_resume_web_development.pdf> resume</a> for more details.
+                </p>
             </div>
         </div>
     </div>
@@ -40,9 +43,20 @@
                 @endphp
             @endif
 
+            @if($loop->last)
+                @php
+                    $last = '-tird';
+                @endphp
+            @else
+                @php
+                    $last = '';
+                @endphp
+            @endif
+
+
             <div class="row">
                 <div class="col-sm-6 pull-{{ $direction }} rex-{{ $direction }}">
-                    <div class="colam">
+                    <div class="colam{{ $last }}">
                     <div class="rs-round {{ $second }}">
                         <i class="{{ $experience->image_class }}"></i>
                     </div>
@@ -81,9 +95,19 @@
                 @endphp
             @endif
 
+            @if($loop->last)
+                @php
+                    $last = '-tird';
+                @endphp
+            @else
+                @php
+                    $last = '';
+                @endphp
+            @endif
+
             <div class="row">
                 <div class="col-sm-6 pull-{{ $direction }} rex-{{ $direction }}">
-                    <div class="colam">
+                    <div class="colam{{ $last }}">
                     <div class="rs-round {{ $second }}">
                         <i class="{{ $education->image_class }}"></i>
                     </div>
