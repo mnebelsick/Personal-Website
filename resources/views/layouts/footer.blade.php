@@ -1,4 +1,5 @@
 <!-- Footer -->
+<!--
 <footer class="section-footer">
     <section class="footer-first">
         <div class="container">
@@ -15,6 +16,6 @@
             </div>
         </div>
     </section>
-
+-->
 <!-- back to top button -->
 <a href="#" class="back-to-top mdl-button waves-effect waves-light  rotate"> <i class="zmdi zmdi-chevron-up"></i></a>

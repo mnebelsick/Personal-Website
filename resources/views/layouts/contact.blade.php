@@ -34,7 +34,7 @@
 
                     <div class="clearfix ci-items fadeIn animated wow" data-wow-delay=".4s"> 
                         <span class="ci-icons"><i class="zmdi zmdi-globe"></i></span> 
-                            <address>mike-nebelsick.dev</address> 
+                            <address>mike-nebelsick.com</address> 
                     </div>
                 </div>
             </div>
