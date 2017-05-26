@@ -48,7 +48,7 @@
                                             <div class="popup-content">
                                                 <h2>Web Sites</h2>
 
-                                                <p>Here is a quick example of a website I originally created using ColdFusion, and have now converted to Laravel:  It was called the ALUniv <a href="http://mike-nebelsick.com:8080" target="_blank">Hall-Of-Fame</a> and was used by the Alcatel-Lucent University to allow peers to recognize each other and bring to attention the rest of the University Innovative things we were all doing.</p>
+                                                <p>Here is a quick example of a website I originally created using ColdFusion, and have now converted to Laravel:  It was called the ALUniv <a href="http://mike-nebelsick.com:8080" target="_blank">Hall-Of-Fame</a> and was used by the Alcatel-Lucent University to allow peers to recognize each other and bring attention to all the Innovative things our peers are doing to the rest of the University.</p>
                                             </div>
                                         </div>
                                     </div><!-- End row -->
