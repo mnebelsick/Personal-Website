@@ -12,6 +12,10 @@ use App\Credential;
 
 use Illuminate\Http\Request;
 
+use GuzzleHttp\Exception\GuzzleException;
+
+use GuzzleHttp\Client;
+
 class ItemsController extends Controller
 {
     public function index()
@@ -36,8 +40,22 @@ class ItemsController extends Controller
 
 		//dd($educations);
 
+		$token = '81395c1379d4a896aa856bec4218ed128ffec0d2';
+		$client = new Client(['base_uri' => 'https://www.strava.com/api/v3/']);
 
-		return view('index', compact('items', 'details', 'testimonials', 'experiences', 'educations'));
+		$headers = [
+		    'Authorization' => 'Bearer ' . $token,        
+		    'Accept'        => 'application/json',
+		];
+		$response = $client->request('GET', 'athletes/2194969/stats', [
+	        'headers' => $headers
+	    ]);
+
+	    $strava_rides = json_decode((string) $response->getBody());
+
+	    dd($strava_rides);
+
+		return view('index', compact('items', 'details', 'testimonials', 'experiences', 'educations', 'strava_rides'));
     }
 	
 }
