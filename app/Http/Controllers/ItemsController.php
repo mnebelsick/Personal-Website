@@ -53,7 +53,7 @@ class ItemsController extends Controller
 
 	    $strava_rides = json_decode((string) $response->getBody());
 
-	    dd($strava_rides);
+	    //dd($strava_rides);
 
 		return view('index', compact('items', 'details', 'testimonials', 'experiences', 'educations', 'strava_rides'));
     }
