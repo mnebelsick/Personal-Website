@@ -40,14 +40,16 @@ class ItemsController extends Controller
 
 		//dd($educations);
 
-		$token = '81395c1379d4a896aa856bec4218ed128ffec0d2';
+		$bearer  = config('services.strava.bearer');
+		$athlete = config('services.strava.athlete');
+
 		$client = new Client(['base_uri' => 'https://www.strava.com/api/v3/']);
 
 		$headers = [
-		    'Authorization' => 'Bearer ' . $token,        
+		    'Authorization' => 'Bearer ' . $bearer,        
 		    'Accept'        => 'application/json',
 		];
-		$response = $client->request('GET', 'athletes/2194969/stats', [
+		$response = $client->request('GET', 'athletes/'. $athlete . '/stats', [
 	        'headers' => $headers
 	    ]);
 

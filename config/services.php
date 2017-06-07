@@ -35,4 +35,8 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
+    'strava' => [
+        'bearer' => env('STRAVA_BEARER'),
+        'athlete' => env('STRAVA_ATHLETE_ID'),
+    ],
 ];
