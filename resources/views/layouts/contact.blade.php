@@ -41,7 +41,7 @@
 
             <div class="col-md-6 col-sm-6 col-lg-6">
                 <div class="section-form">
-                    <form class="contact-form" id="ajax-form" action="https://formsubmit.io/send/mnebelsick@comcast.net" method="post">
+                    <form class="contact-form" id="ajax-form" action="https://formsubmit.io/send/90a3bf58-b341-454e-ba44-97c73c505cee" method="post">
                         <div class="row">
                             <div class="col-sm-12 col-md-6 input-field fadeIn animated wow" data-wow-delay=".1s">
                                 <div class="input-field">
@@ -72,8 +72,8 @@
                                     <textarea class="form-control materialize-textarea" id="message2"  name="message"></textarea>
                                     <div class="error" id="err-message" style="display: none;">Please enter message</div>
                                     <label for="message2" class="input-label">Message</label>
+                                    <input name="_formsubmit_id" type="text" style="display:none">
                                 </div>  
-
                             </div>
 
                             <div class="col-sm-12 input-field-submit">
