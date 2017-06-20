@@ -59,7 +59,7 @@
     <!-- @include('layouts.blog') -->
 
 
-    @include('layouts.contact')
+    <!-- @include('layouts.contact') -->
 
 
     @include('layouts.maps')
