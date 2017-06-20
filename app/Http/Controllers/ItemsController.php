@@ -61,7 +61,15 @@ class ItemsController extends Controller
 
 	    // $strava_activities = json_decode((string) $response2->getBody());
 
-	    //dd($strava_activities);
+	    // //dd($strava_activities);
+
+   		// $response3 = $client->request('GET', 'athletes/'. $athlete . '/koms', [
+	    //     'headers' => $headers
+	    // ]);
+
+	    // $strava_koms = json_decode((string) $response3->getBody());
+
+	    // //dd($strava_koms);
 
 		return view('index', compact('items', 'details', 'testimonials', 'experiences', 'educations', 'strava_rides'));
     }
